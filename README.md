@@ -1,1 +1,0 @@
-# laxmanpathe.github.io
