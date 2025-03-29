@@ -1,164 +1,1576 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Web Developer Portfolio</title>
-  <style>
-    /* Global Styles */
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
-      color: #333;
-    }
-    
-    .container {
-      max-width: 1200px;
-      margin: auto;
-      padding: 0 20px;
-    }
+	<meta charset="UTF-8">
+	<title>Home Page 4 - Multi Page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    /* Header */
-    header {
-      background: #333;
-      color: #fff;
-      padding: 20px 0;
-      text-align: center;
-    }
-    
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-    
-    header p {
-      margin: 5px 0 20px;
-      font-size: 1.2rem;
-    }
-
-    nav ul {
-      list-style: none;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-    }
-    
-    nav ul li {
-      margin: 0 15px;
-    }
-    
-    nav ul li a {
-      color: #fff;
-      text-decoration: none;
-      font-size: 1rem;
-    }
-    
-    /* Sections */
-    section {
-      padding: 60px 0;
-    }
-    
-    section h2 {
-      text-align: center;
-      margin-bottom: 20px;
-      font-size: 2rem;
-    }
-    
-    section p {
-      text-align: center;
-      max-width: 800px;
-      margin: 0 auto 20px;
-      font-size: 1.1rem;
-    }
-    
-    /* Portfolio Grid */
-    .portfolio-items {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-      padding: 0 20px;
-    }
-    
-    .portfolio-item {
-      background: #f4f4f4;
-      padding: 20px;
-      border-radius: 8px;
-      text-align: center;
-    }
-    
-    .portfolio-item h3 {
-      margin-top: 0;
-    }
-    
-    /* Footer */
-    footer {
-      background: #333;
-      color: #fff;
-      text-align: center;
-      padding: 20px 0;
-    }
-  </style>
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/fontawesome.css">
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="assets/css/global.css">
+	<link rel="stylesheet" href="assets/css/swiper.min.css">
+	<link rel="stylesheet" href="assets/css/magnific-popup.css">
+	<link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
-  <!-- Header -->
-  <header>
-    <div class="container">
-      <h1>John Doe</h1>
-      <p>Web Developer</p>
-      <nav>
-        <ul>
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
 
-  <!-- About Section -->
-  <section id="about">
-    <div class="container">
-      <h2>About Me</h2>
-      <p>Hello! I'm John Doe, a passionate web developer with a focus on building responsive and dynamic web applications. I love creating clean, user-friendly designs and bringing ideas to life on the web.</p>
-    </div>
-  </section>
+<body class="home-4">
+	<div id="preloader"></div>
+	<div class="up">
+		<a href="#" class="scrollup text-center"><i class="fas fa-chevron-up"></i></a>
+	</div>
+	<div class="cursor"></div>
+	<!-- Start of Header section
+	============================================= -->
+	<header id="bi-header" class="bi-header-section header-style-four">
+		<div class="bi-header-content d-flex justify-content-between align-items-center">
+			<div class="brand-logo">
+				<a href="#"><img src="assets/img/logo/logo2.png" alt=""></a>
+			</div>
+			<div class="bi-header-main-navigation">
+				<nav class="main-navigation clearfix ul-li">
+					<ul id="main-nav" class="nav navbar-nav clearfix">
+						<li class="dropdown hap-megamenu">
+							<a href="%21.html#">Demos</a>
 
-  <!-- Portfolio Section -->
-  <section id="portfolio">
-    <div class="container">
-      <h2>Portfolio</h2>
-      <div class="portfolio-items">
-        <div class="portfolio-item">
-          <h3>Project 1</h3>
-          <p>A brief description of Project 1.</p>
-        </div>
-        <div class="portfolio-item">
-          <h3>Project 2</h3>
-          <p>A brief description of Project 2.</p>
-        </div>
-        <div class="portfolio-item">
-          <h3>Project 3</h3>
-          <p>A brief description of Project 3.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+						</li>
+						<li class="dropdown">
+							<a href="#">Home</a>
 
-  <!-- Contact Section -->
-  <section id="contact">
-    <div class="container">
-      <h2>Contact</h2>
-      <p>If you'd like to work together or have any questions, feel free to reach out via email: <a href="mailto:john.doe@example.com">john.doe@example.com</a>.</p>
-    </div>
-  </section>
+						</li>
+						<li><a href="about.html" target="_blank">About</a></li>
+				
 
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 John Doe. All rights reserved.</p>
-    </div>
-  </footer>
+						<li class="dropdown">
+							<a href="%21.html#">Pages</a>
+							
+						</li>
+						<li class="dropdown">
+							<a href="%21.html#">Others</a>
+							
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="bi-header-main-menu-cta-area d-flex align-items-center">
+				<div class="bi-header-social">
+					<a href="#"> <i class="fab fa-instagram"></i></a>
+					<a href="#"> <i class="fab fa-linkedin-in"></i></a>
+					<a href="#"> <i class="fab fa-facebook"></i></a>
+					<a href="#"> <i class="fab fa-youtube"></i></a>
+				</div>
+				<div class="bi-header-cta-btn-grp d-flex align-items-center">
+					<div class="cart-btn position-relative header-cart-btn">
+						<button><i class="fab fa-opencart"></i></button>
+						<span>2</span>
+					</div>
+					<div class="offcanves-btn navSidebar-button">
+						<button><i class="fal fa-bars"></i></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="mobile_menu position-relative">
+			<div class="mobile_menu_button open_mobile_menu">
+				<i class="fal fa-bars"></i>
+			</div>
+			<div class="mobile_menu_wrap">
+				<div class="mobile_menu_overlay open_mobile_menu"></div>
+				<div class="mobile_menu_content">
+					<div class="mobile_menu_close open_mobile_menu">
+						<i class="fal fa-times"></i>
+					</div>
+					<div class="m-brand-logo">
+						<a href="%21.html#"><img src="assets/img/logo/logo2.png" alt=""></a>
+					</div>
+					<div class="mobile-search-bar position-relative">
+						<form action="#">
+							<input type="text" name="search" placeholder="Keywords">
+							<button><i class="fal fa-search"></i></button>
+						</form>
+					</div>
+					<nav class="mobile-main-navigation  clearfix ul-li">
+						<ul id="m-main-nav" class="nav navbar-nav clearfix">
+							<li class="dropdown hap-megamenu">
+								<a href="%21.html#">Demos</a>
+				
+							</li>
+							<li class="dropdown">
+								<a href="%21.html#">Home</a>
+							
+							</li>
+							<li><a href="about.html" target="_blank">About</a></li>
+							
+
+							<li class="dropdown">
+								<a href="%21.html#">Pages</a>
+								
+							</li>
+							<li class="dropdown">
+								<a href="%21.html#">Others</a>
+								
+							</li>
+						</ul>
+					</nav>
+					<div class="bi-mobile-header-social text-center">
+						<a href="#"> <i class="fab fa-instagram"></i></a>
+						<a href="#"> <i class="fab fa-linkedin-in"></i></a>
+						<a href="#"> <i class="fab fa-facebook"></i></a>
+						<a href="#"> <i class="fab fa-youtube"></i></a>
+					</div>
+				</div>
+			</div>
+			<!-- /Mobile-Menu -->
+		</div>
+	</header>
+	<!-- Sidebar sidebar Item -->
+	<div class="xs-sidebar-group info-group">
+		<div class="xs-overlay xs-bg-black">
+			<div class="row loader-area">
+				<div class="col-3 preloader-wrap">
+					<div class="loader-bg"></div>
+				</div>
+				<div class="col-3 preloader-wrap">
+					<div class="loader-bg"></div>
+				</div>
+				<div class="col-3 preloader-wrap">
+					<div class="loader-bg"></div>
+				</div>
+				<div class="col-3 preloader-wrap">
+					<div class="loader-bg"></div>
+				</div>
+			</div>
+		</div>
+		<div class="xs-sidebar-widget" data-background="assets/img/bg/texture.html">
+			<div class="sidebar-widget-container">
+				<div class="widget-heading">
+					<a href="#" class="close-side-widget text-uppercase">
+						<i class="fal fa-times"></i> Close
+					</a>
+				</div>
+				<div class="sidebar-textwidget">
+
+					<!-- Sidebar Info Content -->
+					<div class="sidebar-info-contents headline pera-content">
+						<div class="content-inner">
+							<div class="sidebar-logo">
+								<a href="#"><img src="assets/img/logo/logo2.png" alt=""></a>
+							</div>
+							<div class="sidebar-menu ul-li-block">
+								<ul>
+									<li><a href="about.html"><i class="fal fa-home"></i> About Us </a></li>
+									<li><a href="service.html"><i class="fal fa-cogs"></i> Service </a></li>
+									<li><a href="testimonila.html"><i class="fal fa-comments-alt"></i> Testimonial </a>
+									</li>
+									<li><a href="team.html"><i class="fal fa-users"></i> Our Team </a></li>
+									<li><a href="portfolio.html"><i class="fal fa-briefcase"></i> Portfolio </a></li>
+									<li><a href="blog.html"><i class="fal fa-blog"></i> Blog </a></li>
+									<li><a href="contact.html"><i class="fal fa-envelope"></i> Contact </a></li>
+								</ul>
+							</div>
+							<div class="sidebar-more-menu text-uppercase d-flex ul-li">
+								<span>More:</span>
+								<ul>
+									<li><a href="#">My Account </a></li>
+									<li><a href="#">Job Apply </a></li>
+									<li><a href="#">Privacy Policy </a></li>
+								</ul>
+							</div>
+							<div class="sidebar-social ul-li-block">
+								<span>Social:</span>
+								<ul>
+									<li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+									<li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+									<li><a href="#"><i class="fab fa-dribbble"></i> Dribble</a></li>
+									<li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+								</ul>
+							</div>
+							<div class="sidebar-copyright text-center">
+								© Copyright 2025. All Rights Reserved by Aslicecode.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- End of Header section
+	============================================= -->
+
+	<!-- Start of Slider section
+	============================================= -->
+	<section id="bi-slider-4" class="bi-slider-section-4" data-background="assets/img/bg/slider-bg.png">
+		<div class="bi-main-slider-4 swiper-container position-relative">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="bi-main-slider-item-4 position-relative">
+						<span class="shape_1 position-absolute"><img src="assets/img/slider/s-circle.png" alt=""></span>
+						<span class="slider_men position-absolute"><img src="assets/img/slider/s-men2.png"
+								alt=""></span>
+						<div class="bi-main-slider-text position-relative headline pera-content">
+							<h1>
+								We are
+								<span>Creative</span>
+								<strong>Agen <b>cy</b></strong>
+							</h1>
+							<div class="bi-slider-text">
+								<p>Lorem ipsum dolor sit amet consectetur. Eu sit eros proin quisque est. Quis quis
+									tortor nulla at. Molestie risus porttitor nec enim ac viverra.</p>
+								<div class="bi-btn-4 text-uppercase">
+									<a href="contact.html">get started <span
+											class="d-flex justify-content-center align-items-center"><img
+												src="assets/img/icon/arrow.svg" alt=""></span></a>
+								</div>
+							</div>
+						</div>
+						<div class="bi-slider-watch-video">
+							<a class="video_box d-flex align-items-center"
+								href="https://www.youtube.com/watch?v=Nv7RgGpu6ME">
+								<div
+									class="inner-icon d-flex position-relative justify-content-center align-items-center">
+									<i class="fas fa-play"></i>
+									<span class="video_btn_border border_wrap-1"></span>
+									<span class="video_btn_border border_wrap-2"></span>
+									<span class="video_btn_border border_wrap-3"></span>
+								</div>
+								<div class="inner-text headline">
+									<h4>Watch Intro Video</h4>
+									<span>90 Seconds</span>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="bi-main-slider-item-4 position-relative">
+						<span class="shape_1 position-absolute"><img src="assets/img/slider/s-circle.png" alt=""></span>
+						<span class="slider_men position-absolute"><img src="assets/img/slider/s-men.png" alt=""></span>
+						<div class="bi-main-slider-text position-relative headline pera-content">
+							<h1>
+								We are
+								<span>Creative</span>
+								<strong>Agen <b>cy</b></strong>
+							</h1>
+							<div class="bi-slider-text">
+								<p>Lorem ipsum dolor sit amet consectetur. Eu sit eros proin quisque est. Quis quis
+									tortor nulla at. Molestie risus porttitor nec enim ac viverra.</p>
+								<div class="bi-btn-4 text-uppercase">
+									<a href="contact.html">get started <span
+											class="d-flex justify-content-center align-items-center"><img
+												src="assets/img/icon/arrow.svg" alt=""></span></a>
+								</div>
+							</div>
+						</div>
+						<div class="bi-slider-watch-video">
+							<a class="video_box d-flex align-items-center"
+								href="https://www.youtube.com/watch?v=Nv7RgGpu6ME">
+								<div
+									class="inner-icon position-relative d-flex justify-content-center align-items-center">
+									<i class="fas fa-play"></i>
+									<span class="video_btn_border border_wrap-1"></span>
+									<span class="video_btn_border border_wrap-2"></span>
+									<span class="video_btn_border border_wrap-3"></span>
+								</div>
+								<div class="inner-text headline">
+									<h4>Watch Intro Video</h4>
+									<span>90 Seconds</span>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="bi-main-slider-item-4 position-relative">
+						<span class="shape_1 position-absolute"><img src="assets/img/slider/s-circle.png" alt=""></span>
+						<span class="slider_men position-absolute"><img src="assets/img/slider/s-men2.png"
+								alt=""></span>
+						<div class="bi-main-slider-text position-relative headline pera-content">
+							<h1>
+								We are
+								<span>Creative</span>
+								<strong>Agen <b>cy</b></strong>
+							</h1>
+							<div class="bi-slider-text">
+								<p>Lorem ipsum dolor sit amet consectetur. Eu sit eros proin quisque est. Quis quis
+									tortor nulla at. Molestie risus porttitor nec enim ac viverra.</p>
+								<div class="bi-btn-4 text-uppercase">
+									<a href="contact.html">get started <span
+											class="d-flex justify-content-center align-items-center"><img
+												src="assets/img/icon/arrow.svg" alt=""></span></a>
+								</div>
+							</div>
+						</div>
+						<div class="bi-slider-watch-video">
+							<a class="video_box d-flex align-items-center"
+								href="https://www.youtube.com/watch?v=Nv7RgGpu6ME">
+								<div
+									class="inner-icon position-relative d-flex justify-content-center align-items-center">
+									<i class="fas fa-play"></i>
+									<span class="video_btn_border border_wrap-1"></span>
+									<span class="video_btn_border border_wrap-2"></span>
+									<span class="video_btn_border border_wrap-3"></span>
+								</div>
+								<div class="inner-text headline">
+									<h4>Watch Intro Video</h4>
+									<span>90 Seconds</span>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="bi-main-slider-next-prev">
+				<div class="bi-main-slider-arrow-4 d-flex justify-content-end align-items-center bi-main-button-prev-4"
+					data-background="assets/img/slider/arrow-bg1.png"><i class="far fa-long-arrow-left"></i></div>
+				<div class="bi-main-slider-arrow-4 bi-main-button-next-4  d-flex justify-content-start align-items-center"
+					data-background="assets/img/slider/arrow-bg2.png"><i class="far fa-long-arrow-right"></i></div>
+			</div>
+		</div>
+	</section>
+	<!-- End of Slider section
+	============================================= -->
+
+	<!-- Start of About section
+	============================================= -->
+	<section id="bi-about-4" class="bi-about-section-4">
+		<div class="container">
+			<div class="bi-about-content-4">
+				<div class="row">
+					<div class="col-lg-7">
+						<div class="bi-about-img-wrapper4 position-relative">
+							<span class="about-circle-shape position-absolute  wow zoomIn" data-wow-delay="500ms"
+								data-wow-duration="1000ms"><img src="assets/img/about/circle1.png" alt=""></span>
+							<div class="about-img1 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">
+								<img src="assets/img/about/ab1.png" alt="">
+							</div>
+							<div class="about-img2 position-absolute wow fadeInRight" data-wow-delay="500ms"
+								data-wow-duration="1000ms">
+								<img src="assets/img/about/ab2.png" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-5">
+						<div class="bi-about-text-4 position-relative">
+							<div class="bi-section-title-4 headline">
+								<div class="sub-title position-relative text-uppercase wow fadeInRight"
+									data-wow-delay="200ms" data-wow-duration="1000ms">
+									About Company
+								</div>
+								<h2 class="tx-split-text split-in-right">We Provide Best Design Solution in City</h2>
+							</div>
+							<div class="bi-about-text-area-4 bins-text">
+								<p>In nec libero luctus, aliquet turpis at, vehicula nisi. Cras eget mauris in nisl
+									tempus lobortis. Nunc in nisi sapien. Suspendisse finibus dolo et pharetra porta.
+									Sed quam elit, lacinia vitae mi quis, ullamcorper imperdiet dolor. </p>
+								<div class="bi-abut-feature-list-4 ul-li wow fadeInUp" data-wow-delay="300ms"
+									data-wow-duration="1000ms">
+									<ul>
+										<li><i class="fal fa-users"></i> Dedicated Team</li>
+										<li><i class="fal fa-cogs"></i> Clean Setup</li>
+										<li><i class="fal fa-user-headset"></i> 24/7 Support</li>
+										<li><i class="fal fa-award"></i> Winning Award</li>
+									</ul>
+								</div>
+								<div class="bi-about-btn-cta d-flex align-items-center wow fadeInUp"
+									data-wow-delay="400ms" data-wow-duration="1000ms">
+									<div class="bi-btn-4 text-uppercase">
+										<a href="about.html">Our Company <span
+												class="d-flex justify-content-center align-items-center"><img
+													src="assets/img/icon/arrow.svg" alt=""></span></a>
+									</div>
+									<div class="bi-about-cta-4 d-flex align-items-center">
+										<div class="inner-icon d-flex justify-content-center align-items-center">
+											<i class="fas fa-phone"></i>
+										</div>
+										<div class="inner-text headline">
+											<span>Call Us Anytime</span>
+											<h4>0215 6856 9875</h4>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End of About section
+	============================================= -->
+
+	<!-- Start of Text Scroll  section
+	============================================= -->
+	<section id="bi-text-scroll-1" class="bi-text-scroll-section-1 position-relative">
+		<div class="bi-text-scroll-content">
+			<div class="bi-text-scroll-item-1 headline text-uppercase">
+				<h3>Haptic Creative Digital Agency</h3>
+				<h3>Haptic Creative Digital Agency</h3>
+			</div>
+		</div>
+	</section>
+	<!-- End of Text Scroll section
+	============================================= -->
+
+	<!-- Start of Service   section
+	============================================= -->
+	<section id="bi-service-4" class="bi-service-section-4">
+		<div class="container">
+			<div class="bi-service-top-content-4 d-flex align-items-end justify-content-between">
+				<div class="bi-section-title-4 headline">
+					<div class="sub-title position-relative text-uppercase wow fadeInRight" data-wow-delay="200ms"
+						data-wow-duration="1000ms">
+						Our best services
+					</div>
+					<h2 class="tx-split-text split-in-right">Unlock Revenue
+						Grow for you Business</h2>
+				</div>
+				<div class="bi-btn-4 text-uppercase wow fadeInRight" data-wow-delay="300ms" data-wow-duration="1000ms">
+					<a href="portfolio.html">More Portfolio <span
+							class="d-flex justify-content-center align-items-center"><img
+								src="assets/img/icon/arrow.svg" alt=""></span></a>
+				</div>
+			</div>
+		</div>
+		<div class="bi-service-scroll-area">
+			<div class="bi-service-scroll-item position-relative">
+				<div class="service-img">
+					<img src="assets/img/service/ser1.png" alt="">
+				</div>
+				<div class="service-text headline d-flex position-absolute align-items-center justify-content-between">
+					<h3><a href="#">App Development</a></h3>
+					<a class="service_more" href="#"> <i class="fas fa-long-arrow-right"></i></a>
+				</div>
+			</div>
+			<div class="bi-service-scroll-item position-relative">
+				<div class="service-img">
+					<img src="assets/img/service/ser2.png" alt="">
+				</div>
+				<div class="service-text headline d-flex position-absolute align-items-center justify-content-between">
+					<h3><a href="#">UI/UX Design</a></h3>
+					<a class="service_more" href="#"> <i class="fas fa-long-arrow-right"></i></a>
+				</div>
+			</div>
+			<div class="bi-service-scroll-item position-relative">
+				<div class="service-img">
+					<img src="assets/img/service/ser3.png" alt="">
+				</div>
+				<div class="service-text headline d-flex position-absolute align-items-center justify-content-between">
+					<h3><a href="#">Digital Marketing</a></h3>
+					<a class="service_more" href="#"> <i class="fas fa-long-arrow-right"></i></a>
+				</div>
+			</div>
+			<div class="bi-service-scroll-item position-relative">
+				<div class="service-img">
+					<img src="assets/img/service/ser1.png" alt="">
+				</div>
+				<div class="service-text headline d-flex position-absolute align-items-center justify-content-between">
+					<h3><a href="#">App Development</a></h3>
+					<a class="service_more" href="#"> <i class="fas fa-long-arrow-right"></i></a>
+				</div>
+			</div>
+			<div class="bi-service-scroll-item position-relative">
+				<div class="service-img">
+					<img src="assets/img/service/ser2.png" alt="">
+				</div>
+				<div class="service-text headline d-flex position-absolute align-items-center justify-content-between">
+					<h3><a href="#">3D Animation</a></h3>
+					<a class="service_more" href="#"> <i class="fas fa-long-arrow-right"></i></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End of Service  section
+	============================================= -->
+
+	<!-- End of Service  section 4.2
+	============================================= -->
+	<section id="bi-service-4_2" class="bi-service-section-4_2">
+		<div class="bi-service-title-text text-center headline">
+			<div class="service-emoji-logo wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">
+				<img src="assets/img/logo/smile.png" alt="">
+			</div>
+			<h2 class="headline-title">Time to Toss Away & Say Goodbye to</h2>
+		</div>
+		<div class="service-matter"></div>
+	</section>
+	<!-- End of Service section 4.2
+	============================================= -->
+
+	<!-- Start Of why choose us section
+	============================================= -->
+	<section id="bi-why-choose-us-4" class="bi-why-choose-us-section-4">
+		<div class="bi-title-waterprint headline">
+			<h2 class="">Why Choose Us</h2>
+		</div>
+		<div class="bi-why-choose-us-content">
+			<div class="container">
+				<div class="bi-why-choose-us-area-1">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="bi-why-choose-img1-area position-relative">
+								<div class="why-choose-img1">
+									<img src="assets/img/about/whc1.png" alt="">
+								</div>
+								<div class="why-choose-img2 position-absolute" data-parallax='{"x" : -60}'>
+									<img src="assets/img/about/whc1.2.png" alt="">
+								</div>
+								<div class="why-choose-img3 position-absolute">
+									<img src="assets/img/about/wh1.5.png" alt="">
+								</div>
+								<div class="why-choose-img4 position-absolute"
+									data-parallax='{"x" : -60, "rotateY":-300}'>
+									<img src="assets/img/about/wh1.3.png" alt="">
+								</div>
+								<div class="why-choose-img5 position-absolute" data-parallax='{"y" : -60}'>
+									<img src="assets/img/about/wh1.4.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="bi-why-choose-textarea">
+								<div class="bi-why-choose-text_1">
+									<div class="bi-section-title-4 bins-text headline">
+										<div class="sub-title position-relative pera-content text-uppercase wow fadeInRight"
+											data-wow-delay="200ms" data-wow-duration="1000ms">
+											Why choose us
+										</div>
+										<h2 class="tx-split-text split-in-right">Experts Services to Change Business
+										</h2>
+										<p>In nec libero luctus, aliquet turpis at, vehicula nisi. Cras eget mauris in
+											nisl tempus lobortis. Nunc in nisi sapien. Suspendisse finibus dolo et
+											pharetra porta. Sed quam elit, lacinia vitae mi quis,</p>
+									</div>
+									<div class="bi-why-choose-feature ul-li wow fadeInRight" data-wow-delay="300ms"
+										data-wow-duration="1000ms">
+										<ul>
+											<li>Responsive Design</li>
+											<li>Productive Software</li>
+											<li>Quality Product</li>
+											<li>24/7 Online Support</li>
+										</ul>
+									</div>
+									<div class="bi-btn-4 text-uppercase wow fadeInRight" data-wow-delay="400ms"
+										data-wow-duration="1000ms">
+										<a href="about.html">About Us <span
+												class="d-flex justify-content-center align-items-center"><img
+													src="assets/img/icon/arrow.svg" alt=""></span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="bi-why-choose-us-area-2">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="bi-why-choose-textarea">
+								<div class="bi-why-choose-text_2">
+									<div class="bi-section-title-4 headline bins-text">
+										<div class="sub-title position-relative pera-content text-uppercase wow fadeInRight"
+											data-wow-delay="300ms" data-wow-duration="1000ms">
+											Our Experiences
+										</div>
+										<h2 class="tx-split-text split-in-right">Leading Online Market Development
+											Company</h2>
+										<p>In nec libero luctus, aliquet turpis at, vehicula nisi. Cras eget mauris in
+											nisl tempus lobortis. Nunc in nisi sapien. Suspendisse finibus dolo et
+											pharetra porta. Sed quam elit, lacinia vitae mi quis,</p>
+									</div>
+									<div class="bi-why-choose-skill-area">
+										<div class="skill-set-percent headline">
+											<h4>UI/UX Design</h4>
+											<div class="progress">
+												<div class="progress-bar" data-percent="92"></div>
+											</div>
+										</div>
+										<div class="skill-set-percent headline">
+											<h4>Web Development</h4>
+											<div class="progress">
+												<div class="progress-bar" data-percent="85"></div>
+											</div>
+										</div>
+										<div class="skill-set-percent headline">
+											<h4>Marketing & Branding</h4>
+											<div class="progress">
+												<div class="progress-bar" data-percent="85"></div>
+											</div>
+										</div>
+									</div>
+									<div class="bi-btn-4 text-uppercase">
+										<a href="about.html">About Us <span
+												class="d-flex justify-content-center align-items-center"><img
+													src="assets/img/icon/arrow.svg" alt=""></span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="bi-why-choose-img2-area position-relative">
+								<div class="why-choose-img2">
+									<img src="assets/img/about/wh2.1.png" alt="">
+								</div>
+								<div class="why-choose-img2_1 position-absolute" data-parallax='{"y" : 30}'>
+									<img src="assets/img/about/wh2.2.png" alt="">
+								</div>
+								<div class="why-choose-img2_2 position-absolute" data-parallax='{"x" : 50}'>
+									<img src="assets/img/about/wh2.3.png" alt="">
+								</div>
+								<div class="why-choose-img2_3 position-absolute"
+									data-parallax='{"y" : -60, "rotateY":-150}'>
+									<img src="assets/img/about/wh2.4.png" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="bi-why-choose-us-area-3">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="bi-why-choose-img3-area position-relative">
+								<div class="why-choose-img3">
+									<img src="assets/img/about/wh3.png" alt="">
+								</div>
+								<div class="why-choose-img3_2 position-absolute" data-parallax='{"y" : -30}'>
+									<img src="assets/img/about/wh3.1.png" alt="">
+								</div>
+								<div class="why-choose-img3_3 position-absolute"
+									data-parallax='{"y" : 60, "rotateY":-150}'>
+									<img src="assets/img/about/wh3.2.png" alt="">
+								</div>
+								<div class="why-choose-img3_4 position-absolute"
+									data-parallax='{"y" : -60, "rotateY":150}'>
+									<img src="assets/img/about/wh3.3.png" alt="">
+								</div>
+								<div class="why-choose-img3_5 position-absolute"
+									data-parallax='{"y" : 60, "rotateY":-150}'>
+									<img src="assets/img/about/wh3.4.png" alt="">
+								</div>
+								<div class="why-choose-img3_6 position-absolute"
+									data-parallax='{"y" : -60, "rotateY":150}'>
+									<img src="assets/img/about/wh3.5.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="bi-why-choose-textarea">
+								<div class="bi-why-choose-text_3">
+									<div class="bi-section-title-4 bins-text headline">
+										<div class="sub-title position-relative pera-content text-uppercase wow fadeInRight"
+											data-wow-delay="300ms" data-wow-duration="1000ms">
+											Frequently asked questions
+										</div>
+										<h2 class="tx-split-text split-in-right">You Are Confused! Question & Answers.
+										</h2>
+										<p>In nec libero luctus, aliquet turpis at, vehicula nisi. Cras eget mauris in
+											nisl tempus lobortis. Nunc in nisi sapien. </p>
+									</div>
+									<div class="accordion" id="accordionExample_31">
+										<div class="accordion-item wow fadeInUp faq_bg" data-wow-delay="200ms"
+											data-wow-duration="1000ms">
+											<h2 class="accordion-header" id="heading10">
+												<button class="accordion-button" type="button" data-bs-toggle="collapse"
+													data-bs-target="#collapse10" aria-expanded="true"
+													aria-controls="collapse10">
+													<span> What is Business ?</span>
+												</button>
+											</h2>
+											<div id="collapse10" class="accordion-collapse collapse show"
+												aria-labelledby="heading10" data-bs-parent="#accordionExample_31">
+												<div class="accordion-body ">
+													<div class="bi-faq-text">
+														Lorem ipsum dolor sit amet consectetur. Vel velit tincidunt
+														adipiscing mauri tincidunt nunc et. Tincidunt lectus massa
+														gravida sit placerat. Fermentum morbi viverra accumsan vitae.
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="accordion-item wow fadeInUp" data-wow-delay="300ms"
+											data-wow-duration="1000ms">
+											<h2 class="accordion-header" id="heading12">
+												<button class="accordion-button collapsed" type="button"
+													data-bs-toggle="collapse" data-bs-target="#collapse12"
+													aria-expanded="false" aria-controls="collapse12">
+													<span>Nulla vitae est risus. Aenean aliquam dolor a massa</span>
+												</button>
+											</h2>
+											<div id="collapse12" class="accordion-collapse collapse"
+												aria-labelledby="heading12" data-bs-parent="#accordionExample_31">
+												<div class="accordion-body ">
+													<div class="bi-faq-text">
+														Lorem ipsum dolor sit amet consectetur. Vel velit tincidunt
+														adipiscing mauri tincidunt nunc et. Tincidunt lectus massa
+														gravida sit placerat. Fermentum morbi viverra accumsan vitae.
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="accordion-item wow fadeInUp" data-wow-delay="400ms"
+											data-wow-duration="1000ms">
+											<h2 class="accordion-header" id="heading13">
+												<button class="accordion-button collapsed" type="button"
+													data-bs-toggle="collapse" data-bs-target="#collapse13"
+													aria-expanded="false" aria-controls="collapse13">
+													<span>Pellentesque habitant morbi
+														tristique senectus ?</span>
+												</button>
+											</h2>
+											<div id="collapse13" class="accordion-collapse collapse"
+												aria-labelledby="heading13" data-bs-parent="#accordionExample_31">
+												<div class="accordion-body ">
+													<div class="bi-faq-text">
+														Lorem ipsum dolor sit amet consectetur. Vel velit tincidunt
+														adipiscing mauri tincidunt nunc et. Tincidunt lectus massa
+														gravida sit placerat. Fermentum morbi viverra accumsan vitae.
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End of why choose us section
+	============================================= -->
+
+	<!-- Start Of Text Scroll 2 section
+	============================================= -->
+	<section id="bi-text-scroll-2" class="bi-text-scroll-section-2">
+		<div class="bi-text-scroll-content-2">
+			<div class="bi-text-scroll-item-2 headline text-uppercase">
+				<h3 class="scroll-text-1">Haptic.</h3>
+				<span><img src="assets/img/icon/tx1.png" alt=""></span>
+				<h3 class="scroll-text-2">creative</h3>
+				<span><img src="assets/img/icon/tx2.png" alt=""></span>
+				<h3 class="scroll-text-3">digital</h3>
+				<span><img src="assets/img/icon/tx3.png" alt=""></span>
+				<h3 class="scroll-text-4">agency</h3>
+			</div>
+		</div>
+	</section>
+	<!--End Of why Text Scroll 2 section
+	============================================= -->
+
+	<!-- Start Of team section
+	============================================= -->
+	<section id="bi-team-4" class="bi-team-section-4">
+		<div class="container">
+			<div class="bi-section-title-4 text-center headline">
+				<div class="sub-title position-relative text-uppercase wow fadeInRight" data-wow-delay="100ms"
+					data-wow-duration="1000ms">
+					Our Team Member
+				</div>
+				<h2 class="headline-title">Our Expert Team</h2>
+			</div>
+			<div class="bi-team-content-4">
+				<div class="row justify-content-center">
+					<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1000ms">
+						<div class="bi-team-item-4 headline text-center position-relative">
+							<div class="team-img">
+								<img src="assets/img/team/tm1.png" alt="">
+							</div>
+							<div class="team-text text-uppercase">
+								<h3><a href="team-single.html">Jonathan Lee</a></h3>
+								<span>Full Stock Developer</span>
+								<div class="team-social d-flex justify-content-center">
+									<a href="#"> <i class="fab fa-instagram"></i></a>
+									<a href="#"> <i class="fab fa-linkedin-in"></i></a>
+									<a href="#"> <i class="fab fa-facebook"></i></a>
+									<a href="#"> <i class="fab fa-youtube"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
+						<div class="bi-team-item-4 headline text-center position-relative">
+							<div class="team-img">
+								<img src="assets/img/team/tm2.png" alt="">
+							</div>
+							<div class="team-text text-uppercase">
+								<h3><a href="team-single.html">Rachana Sheth</a></h3>
+								<span>Full Stock Developer</span>
+								<div class="team-social d-flex justify-content-center">
+									<a href="#"> <i class="fab fa-instagram"></i></a>
+									<a href="#"> <i class="fab fa-linkedin-in"></i></a>
+									<a href="#"> <i class="fab fa-facebook"></i></a>
+									<a href="#"> <i class="fab fa-youtube"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">
+						<div class="bi-team-item-4 headline text-center position-relative">
+							<div class="team-img">
+								<img src="assets/img/team/tm1.png" alt="">
+							</div>
+							<div class="team-text text-uppercase">
+								<h3><a href="team-single.html">Yorgan Ted</a></h3>
+								<span>Full Stock Developer</span>
+								<div class="team-social d-flex justify-content-center">
+									<a href="#"> <i class="fab fa-instagram"></i></a>
+									<a href="#"> <i class="fab fa-linkedin-in"></i></a>
+									<a href="#"> <i class="fab fa-facebook"></i></a>
+									<a href="#"> <i class="fab fa-youtube"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="bi-btn-4 text-center text-uppercase">
+					<a href="team.html">All members <span class="d-flex justify-content-center align-items-center"><img
+								src="assets/img/icon/arrow.svg" alt=""></span></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End   Of team section
+	============================================= -->
+
+	<!-- Start Of Portfolio section
+	============================================= -->
+	<section id="bi-portfolio-4" class="bi-portfolio-section-4">
+		<div class="bi-title-waterprint headline">
+			<h2>Our Best Projects </h2>
+		</div>
+		<div class="container">
+			<div class="bi-section-title-4 text-center headline">
+				<div class="sub-title position-relative text-uppercase wow fadeInRight" data-wow-delay="100ms"
+					data-wow-duration="1000ms">
+					Our Projects
+				</div>
+				<h2 class="headline-title">Explore Our Best Recently
+					Completed Projects</h2>
+			</div>
+			<div class="bi-portfolio-content-4">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="bi-portfolio-item-wrapper">
+							<div class="bi-portfolio-item-4 wow fadeInUp" data-wow-delay="100ms"
+								data-wow-duration="1000ms" data-tilt data-tilt-max="2">
+								<div class="portfolio-img-4">
+									<img src="assets/img/project/pro1.png" alt="">
+								</div>
+								<div class="portfolio-text headline">
+									<h3><a href="portfolio-single.html">Travel Website Design</a></h3>
+									<div class="portfolio-category">
+										<a href="portfolio.html">UI Design</a>
+										<a href="portfolio.html">UX Design</a>
+										<a href="portfolio.html">Website Design</a>
+									</div>
+								</div>
+							</div>
+							<div class="bi-portfolio-item-4 wow fadeInUp" data-wow-delay="200ms"
+								data-wow-duration="1000ms" data-tilt data-tilt-max="2">
+								<div class="portfolio-img-4">
+									<img src="assets/img/project/pro2.png" alt="">
+								</div>
+								<div class="portfolio-text headline">
+									<h3><a href="portfolio-single.html">Banking Landing Page Design</a></h3>
+									<div class="portfolio-category">
+										<a href="portfolio.html">UI Design</a>
+										<a href="portfolio.html">UX Design</a>
+										<a href="portfolio.html">Website Design</a>
+									</div>
+								</div>
+							</div>
+							<div class="bi-portfolio-item-4 wow fadeInUp" data-wow-delay="300ms"
+								data-wow-duration="1000ms" data-tilt data-tilt-max="2">
+								<div class="portfolio-img-4">
+									<img src="assets/img/project/pro3.png" alt="">
+								</div>
+								<div class="portfolio-text headline">
+									<h3><a href="portfolio-single.html">Travel Website Design</a></h3>
+									<div class="portfolio-category">
+										<a href="portfolio.html">UI Design</a>
+										<a href="portfolio.html">UX Design</a>
+										<a href="portfolio.html">Website Design</a>
+									</div>
+								</div>
+							</div>
+							<div class="bi-portfolio-item-4 wow fadeInUp" data-wow-delay="400ms"
+								data-wow-duration="1000ms" data-tilt data-tilt-max="2">
+								<div class="portfolio-img-4">
+									<img src="assets/img/project/pro4.png" alt="">
+								</div>
+								<div class="portfolio-text headline">
+									<h3><a href="portfolio-single.html">Mobile Application Design</a></h3>
+									<div class="portfolio-category">
+										<a href="portfolio.html">UI Design</a>
+										<a href="portfolio.html">UX Design</a>
+										<a href="portfolio.html">Website Design</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="bi-portfolio-item-wrapper-2">
+							<div class="bi-portfolio-item-4 wow fadeInUp" data-wow-delay="150ms"
+								data-wow-duration="1000ms" data-tilt data-tilt-max="2">
+								<div class="portfolio-img-4">
+									<img src="assets/img/project/pro5.png" alt="">
+								</div>
+								<div class="portfolio-text headline">
+									<h3><a href="portfolio-single.html">AI Chatting Website Design</a></h3>
+									<div class="portfolio-category">
+										<a href="portfolio.html">UI Design</a>
+										<a href="portfolio.html">UX Design</a>
+										<a href="portfolio.html">Website Design</a>
+									</div>
+								</div>
+							</div>
+							<div class="bi-portfolio-item-4 wow fadeInUp" data-wow-delay="250ms"
+								data-wow-duration="1000ms" data-tilt data-tilt-max="2">
+								<div class="portfolio-img-4">
+									<img src="assets/img/project/pro6.png" alt="">
+								</div>
+								<div class="portfolio-text headline">
+									<h3><a href="portfolio-single.html">Mobile Application Design</a></h3>
+									<div class="portfolio-category">
+										<a href="portfolio.html">UI Design</a>
+										<a href="portfolio.html">UX Design</a>
+										<a href="portfolio.html">Website Design</a>
+									</div>
+								</div>
+							</div>
+							<div class="bi-portfolio-item-4 wow fadeInUp" data-wow-delay="350ms"
+								data-wow-duration="1000ms" data-tilt data-tilt-max="2">
+								<div class="portfolio-img-4">
+									<img src="assets/img/project/pro7.png" alt="">
+								</div>
+								<div class="portfolio-text headline">
+									<h3><a href="portfolio-single.html">Simple Phone Anaylytics UI</a></h3>
+									<div class="portfolio-category">
+										<a href="portfolio.html">UI Design</a>
+										<a href="portfolio.html">UX Design</a>
+										<a href="portfolio.html">Website Design</a>
+									</div>
+								</div>
+							</div>
+							<div class="bi-portfolio-item-4 wow fadeInUp" data-wow-delay="450ms"
+								data-wow-duration="1000ms" data-tilt data-tilt-max="2">
+								<div class="portfolio-img-4">
+									<img src="assets/img/project/pro8.png" alt="">
+								</div>
+								<div class="portfolio-text headline">
+									<h3><a href="print.min.html">Task Management Apps Design</a></h3>
+									<div class="portfolio-category">
+										<a href="portfolio.html">UI Design</a>
+										<a href="portfolio.html">UX Design</a>
+										<a href="portfolio.html">Website Design</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="bi-btn-4 text-center text-uppercase">
+					<a href="portfolio.html">view More <span
+							class="d-flex justify-content-center align-items-center"><img
+								src="assets/img/icon/arrow.svg" alt=""></span></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Of Portfolio section
+	============================================= -->
+
+	<!-- Start Of Pricing section
+	============================================= -->
+	<section id="bi-pricing-4" class="bi-pricing-section-4">
+		<div class="container">
+			<div class="bi-pricing-content-4">
+				<div class="row">
+					<div class="col-lg-5">
+						<div class="bi-pricing-text-area-4">
+							<div class="bi-section-title-4 pera-content headline">
+								<div class="sub-title position-relative text-uppercase wow fadeInRight"
+									data-wow-delay="100ms" data-wow-duration="1000ms">
+									Our Pricing plan
+								</div>
+								<h2 class="tx-split-text split-in-right">We Will Offer Best Price for Your Business!
+								</h2>
+								<p>In nec libero luctus, aliquet turpis at, vehicula nisi. Cras eget mauris in nisl
+									tempus lobortis. Nunc in nisi sapien. Suspendi sse finibus dolo et pharetra porta.
+								</p>
+							</div>
+							<div class="bi-btn-4  text-uppercase">
+								<a href="price.html">Learn More <span
+										class="d-flex justify-content-center align-items-center"><img
+											src="assets/img/icon/arrow.svg" alt=""></span></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-7">
+						<div class="bi-pricing-plan-content-4 position-relative">
+							<div class="bi-pricing-item-4 text-center price-first-item">
+								<div class="plan-title text-uppercase">
+									Standard pack
+								</div>
+								<div class="plan-price headline">
+									<h3><sub>$</sub>280.00</h3>
+									<span>Per monthly</span>
+								</div>
+								<div class="plan-list ul-li-block">
+									<ul>
+										<li>Up to 100 keyphrases otimized</li>
+										<li>Custom dashboards: 4</li>
+										<li>Digital marketing expert</li>
+										<li>Content, and link monitoring</li>
+										<li>Upload your document</li>
+										<li>Content, and link monitoring</li>
+										<li>Upload your document</li>
+									</ul>
+								</div>
+								<div class="price-btn text-center text-uppercase">
+									<a href="#">get started</a>
+								</div>
+							</div>
+							<div class="bi-pricing-item-4 text-center price-last-item">
+								<div class="plan-title text-uppercase">
+									Standard pack
+								</div>
+								<div class="plan-price headline">
+									<h3><sub>$</sub>380.00</h3>
+									<span>Per Year</span>
+								</div>
+								<div class="plan-list ul-li-block">
+									<ul>
+										<li>Up to 100 keyphrases otimized</li>
+										<li>Custom dashboards: 4</li>
+										<li>Digital marketing expert</li>
+										<li>Content, and link monitoring</li>
+										<li>Upload your document</li>
+										<li>Content, and link monitoring</li>
+										<li>Upload your document</li>
+									</ul>
+								</div>
+								<div class="price-btn text-center text-uppercase">
+									<a href="#">get started</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Of Pricing section
+	============================================= -->
+
+	<!-- Start Of Counter section
+	============================================= -->
+	<section id="bi-counter-4" class="bi-counter-section-4 position-relative"
+		data-background="assets/img/bg/counter-bg.png">
+		<span class="bi-counter-landing1 counter-landing position-absolute"><img src="assets/img/about/cn-1.png"
+				alt=""></span>
+		<span class="bi-counter-landing2 counter-landing position-absolute"><img src="assets/img/about/cn-3.png"
+				alt=""></span>
+		<span class="bi-counter-landing3 counter-landing position-absolute"><img src="assets/img/about/cn-2.png"
+				alt=""></span>
+		<div class="container">
+			<div class="bi-counter-content-4 d-flex justify-content-end">
+				<div class="bi-fun-fact-counter-2  position-relative">
+					<span class="bi-fun-fact-star position-absolute"><img src="assets/img/icon/star2.png" alt=""></span>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="bi-counter-item-2 headline pera-content">
+								<h3><span class="counter">46</span>k</h3>
+								<p>(HTML, CSS, React)</p>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="bi-counter-item-2 headline pera-content">
+								<h3><span class="counter">41</span>k</h3>
+								<p>Architecture (IA)</p>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="bi-counter-item-2 headline pera-content">
+								<h3><span class="counter">95</span>k</h3>
+								<p>Client took the program</p>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="bi-counter-item-2 headline pera-content">
+								<h3><span class="counter">85</span>k</h3>
+								<p>Usability Testing</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Of Counter section
+	============================================= -->
+
+	<!-- Start Of Testimonial section
+	============================================= -->
+	<section id="bi-testimonial-4" class="bi-testimonial-section-4">
+		<div class="bi-title-waterprint headline">
+			<h2>Our Testimonial</h2>
+		</div>
+		<div class="container">
+			<div class="bi-section-title-4 text-center headline">
+				<div class="sub-title position-relative text-uppercase wow fadeInRight" data-wow-delay="100ms"
+					data-wow-duration="1000ms">
+					Our testimonial
+				</div>
+				<h2 class="heading-title">Our Clients Say About
+					Our Services</h2>
+			</div>
+			<div class="bi-testimonial-slider-4">
+				<div class="bi-testimonial-slider-nav-4 position-relative swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div
+								class="testimonial_nav position-relative d-flex justify-content-between align-items-center">
+								<img src="assets/img/testimonial/test1.png" alt="">
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div
+								class="testimonial_nav position-relative d-flex justify-content-between align-items-center">
+								<img src="assets/img/testimonial/test2.png" alt="">
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div
+								class="testimonial_nav position-relative d-flex justify-content-between align-items-center">
+								<img src="assets/img/testimonial/test3.png" alt="">
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div
+								class="testimonial_nav position-relative d-flex justify-content-between align-items-center">
+								<img src="assets/img/testimonial/test4.png" alt="">
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div
+								class="testimonial_nav position-relative d-flex justify-content-between align-items-center">
+								<img src="assets/img/testimonial/test5.png" alt="">
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div
+								class="testimonial_nav position-relative d-flex justify-content-between align-items-center">
+								<img src="assets/img/testimonial/test1.png" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="testimonial-prev_4 position-absolute d-flex justify-content-center align-items-center">
+						<i class="fal fa-long-arrow-left"></i></div>
+					<div class="testimonial-next_4 position-absolute d-flex justify-content-center align-items-center">
+						<i class="fal fa-long-arrow-right"></i></div>
+				</div>
+				<div class="bi-testimonial-slider-for-4 swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="bi-testimonial-item-4 text-center headline pera-content">
+
+								<div class="testimonial-author">
+									<h3 class="text-uppercase">Esther Howard</h3>
+									<span>Web Development</span>
+								</div>
+								<div class="testimonial-desc-rate">
+									<p>“Lorem ipsum dolor sit amet consectetur. Vitae tortor purus elementum
+										pellentesque in. Faucibus faucibus eget tempus non. Nisi est gravida molestie
+										rhoncus. Vitae rutrum praesent enim a ante nunc enim. Malesuada dictumst sed
+										enim diam. Metus fusce faucibus etiam molestie dui porttitor. Pretium quam sit
+										aliquam id nam
+										senectus malesuada tempus.”</p>
+									<div class="testimonial-rate ul-li">
+										<ul>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="bi-testimonial-item-4 text-center headline pera-content">
+								<div class="testimonial-author">
+									<h3 class="text-uppercase">Esther Howard2</h3>
+									<span>Web Development</span>
+								</div>
+								<div class="testimonial-desc-rate">
+									<p>“Lorem ipsum dolor sit amet consectetur. Vitae tortor purus elementum
+										pellentesque in. Faucibus faucibus eget tempus non. Nisi est gravida molestie
+										rhoncus. Vitae rutrum praesent enim a ante nunc enim. Malesuada dictumst sed
+										enim diam. Metus fusce faucibus etiam molestie dui porttitor. Pretium quam sit
+										aliquam id nam
+										senectus malesuada tempus.”</p>
+									<div class="testimonial-rate ul-li">
+										<ul>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="bi-testimonial-item-4 text-center headline pera-content">
+								<div class="testimonial-author">
+									<h3 class="text-uppercase">Esther Howard3</h3>
+									<span>Web Development</span>
+								</div>
+								<div class="testimonial-desc-rate">
+									<p>“Lorem ipsum dolor sit amet consectetur. Vitae tortor purus elementum
+										pellentesque in. Faucibus faucibus eget tempus non. Nisi est gravida molestie
+										rhoncus. Vitae rutrum praesent enim a ante nunc enim. Malesuada dictumst sed
+										enim diam. Metus fusce faucibus etiam molestie dui porttitor. Pretium quam sit
+										aliquam id nam
+										senectus malesuada tempus.”</p>
+									<div class="testimonial-rate ul-li">
+										<ul>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="bi-testimonial-item-4 text-center headline pera-content">
+								<div class="testimonial-author">
+									<h3 class="text-uppercase">Esther Howard4</h3>
+									<span>Web Development</span>
+								</div>
+								<div class="testimonial-desc-rate">
+									<p>“Lorem ipsum dolor sit amet consectetur. Vitae tortor purus elementum
+										pellentesque in. Faucibus faucibus eget tempus non. Nisi est gravida molestie
+										rhoncus. Vitae rutrum praesent enim a ante nunc enim. Malesuada dictumst sed
+										enim diam. Metus fusce faucibus etiam molestie dui porttitor. Pretium quam sit
+										aliquam id nam
+										senectus malesuada tempus.”</p>
+									<div class="testimonial-rate ul-li">
+										<ul>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="bi-testimonial-item-4 text-center headline pera-content">
+								<div class="testimonial-author">
+									<h3 class="text-uppercase">Esther Howard5</h3>
+									<span>Web Development</span>
+								</div>
+								<div class="testimonial-desc-rate">
+									<p>“Lorem ipsum dolor sit amet consectetur. Vitae tortor purus elementum
+										pellentesque in. Faucibus faucibus eget tempus non. Nisi est gravida molestie
+										rhoncus. Vitae rutrum praesent enim a ante nunc enim. Malesuada dictumst sed
+										enim diam. Metus fusce faucibus etiam molestie dui porttitor. Pretium quam sit
+										aliquam id nam
+										senectus malesuada tempus.”</p>
+									<div class="testimonial-rate ul-li">
+										<ul>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Of Testimonial section
+	============================================= -->
+
+	<!-- Start Of Image scroll section
+	============================================= -->
+	<div class="bi-scroll-img-section position-relative">
+		<div class="bi-scroll-img-wrapper" data-parallax='{"x" : -200}'>
+			<div class="bi-scroll-img-area position-absolute">
+				<img src="assets/img/about/scroll-img.png" alt="">
+			</div>
+		</div>
+	</div>
+	<!-- End Of Image scroll section
+	============================================= -->
+
+	<!-- Start Of Blog section
+	============================================= -->
+	<section id="bi-blog-4" class="bi-blog-section-4">
+		<div class="container">
+			<div class="bi-service-top-content-4 d-flex align-items-end justify-content-between">
+				<div class="bi-section-title-4 headline">
+					<div class="sub-title position-relative text-uppercase wow fadeInRight" data-wow-delay="100ms"
+						data-wow-duration="1000ms">
+						Our Blog & News
+					</div>
+					<h2 class="tx-split-text split-in-right">Read Our Recent News Get Every Update</h2>
+				</div>
+				<div class="bi-btn-4 text-uppercase wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1000ms">
+					<a href="blog-2.html">Learn more <span class="d-flex justify-content-center align-items-center"><img
+								src="assets/img/icon/arrow.svg" alt=""></span></a>
+				</div>
+			</div>
+			<div class="bi-blog-top-content">
+				<div class="row">
+					<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1000ms">
+						<div class="bi-blog-item-4 position-relative">
+							<div class="blog-img position-relative">
+								<img src="assets/img/blog/blg1.png" alt="">
+								<span class="blog-meta position-absolute"><a href="#">18 April, 2023</a></span>
+							</div>
+							<div class="blog-text headline pera-content">
+								<h3><a href="blog-single.html">Basic Rule of Running Web</a></h3>
+								<p>Fusce sit amet semper velit. Ut fringilla nunc a maximus interdum. Cras pharetra
+									scelerisque sem commodo aliquet.</p>
+							</div>
+							<div class="blog-author-more d-flex justify-content-between align-items-center">
+								<div class="blog-author d-flex align-items-center">
+									<div class="inner-img">
+										<img src="assets/img/blog/test-1.jpg" alt="">
+									</div>
+									<div class="inner-text text-uppercase">
+										Eleanor Pena
+									</div>
+								</div>
+								<div class="blog-more text-uppercase">
+									<a href="blog-single.html">Read More <i class="fas fa-long-arrow-right"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
+						<div class="bi-blog-item-4 position-relative">
+							<div class="blog-img position-relative">
+								<img src="assets/img/blog/blg2.png" alt="">
+								<span class="blog-meta position-absolute"><a href="#">18 April, 2023</a></span>
+							</div>
+							<div class="blog-text headline pera-content">
+								<h3><a href="blog-single.html">UX Checklists for UI Desin</a></h3>
+								<p>Fusce sit amet semper velit. Ut fringilla nunc a maximus interdum. Cras pharetra
+									scelerisque sem commodo aliquet.</p>
+							</div>
+							<div class="blog-author-more d-flex justify-content-between align-items-center">
+								<div class="blog-author d-flex align-items-center">
+									<div class="inner-img">
+										<img src="assets/img/blog/test-1.jpg" alt="">
+									</div>
+									<div class="inner-text text-uppercase">
+										Eleanor Pena
+									</div>
+								</div>
+								<div class="blog-more text-uppercase">
+									<a href="blog-single.html">Read More <i class="fas fa-long-arrow-right"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">
+						<div class="bi-blog-item-4 position-relative">
+							<div class="blog-img position-relative">
+								<img src="assets/img/blog/blg3.png" alt="">
+								<span class="blog-meta position-absolute"><a href="#">18 April, 2023</a></span>
+							</div>
+							<div class="blog-text headline pera-content">
+								<h3><a href="blog-single.html">A Designers UI/UX Comple</a></h3>
+								<p>Fusce sit amet semper velit. Ut fringilla nunc a maximus interdum. Cras pharetra
+									scelerisque sem commodo aliquet.</p>
+							</div>
+							<div class="blog-author-more d-flex justify-content-between align-items-center">
+								<div class="blog-author d-flex align-items-center">
+									<div class="inner-img">
+										<img src="assets/img/blog/test-1.jpg" alt="">
+									</div>
+									<div class="inner-text text-uppercase">
+										Eleanor Pena
+									</div>
+								</div>
+								<div class="blog-more text-uppercase">
+									<a href="blog-single.html">Read More <i class="fas fa-long-arrow-right"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Of Blog section
+	============================================= -->
+
+	<!-- Start of Footer  section
+	============================================= -->
+	<footer id="bi-footer" class="bi-footer-section" data-background="assets/img/bg/footer-bg.png">
+		<div class="bi-footer-cta blue-footer position-relative">
+			<div class="container">
+				<div class="bi-footer-cta-content headline d-flex align-items-center  justify-content-between flex-wrap"
+					data-background="assets/img/bg/footer-bg-cta.png">
+					<div class="bi-footer-cta-text">
+						<h3>Looking for a
+							Design Parner?</h3>
+					</div>
+					<div class="bi-cta-btn">
+						<div class="bi-btn-4 text-uppercase wow fadeInRight" data-wow-delay="200ms"
+							data-wow-duration="1000ms">
+							<a href="#">Get A quote <span class="d-flex justify-content-center align-items-center"><img
+										src="assets/img/icon/arrow.svg" alt=""></span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bi-footer-widget-content">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-5">
+						<div class="bi-footer-widget headline pera-content ul-li-block">
+							<div class="about-widget">
+								<h3>Working Together
+									Ideas come to life</h3>
+								<p>
+									No matter how big your company is, as you expand and reach new highs you’ll want an
+									agency to have your back. One with a process
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="bi-footer-widget headline pera-content ul-li-block">
+							<div class="menu-widget">
+								<h3 class="widget-title">UI Design</h3>
+								<ul>
+									<li><a href="#">Estimation</a></li>
+									<li><a href="#">Research</a></li>
+									<li><a href="#">Storyboard</a></li>
+									<li><a href="#">User Flow</a></li>
+									<li><a href="#">Information </a></li>
+									<li><a href="#">Storyboard (IA)</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="bi-footer-widget headline pera-content ul-li-block">
+							<div class="menu-widget">
+								<h3 class="widget-title">Development</h3>
+								<ul>
+									<li><a href="#">Front End (HTML, CSS, React)</a></li>
+									<li><a href="#">Backend (Node.js, MongoDB)</a></li>
+									<li><a href="#">iOS (Swift)</a></li>
+									<li><a href="#">Android (Kotlin, Flutter)</a></li>
+									<li><a href="#">Post Delivery Support</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="bi-footer-widget headline pera-content ul-li-block">
+							<div class="menu-widget">
+								<h3 class="widget-title">UI Design</h3>
+								<ul>
+									<li><a href="#">Define Idea</a></li>
+									<li><a href="#">Target Audience</a></li>
+									<li><a href="#">Idea Validation</a></li>
+									<li><a href="#">Customer Value </a></li>
+									<li><a href="#">Build MVP Version</a></li>
+									<li><a href="#">Competitor Reserach</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bi-footer-social">
+			<div class="container">
+				<div class="bi-footer-social-content ul-li">
+					<ul>
+						<li><a href="#"><i class="fal fa-basketball-ball"></i> Dribbble </a></li>
+						<li><a href="#"><i class="fab fa-behance-square"></i> Behance </a></li>
+						<li><a href="#"><i class="fab fa-linkedin-in"></i> Linked In </a></li>
+						<li><a href="#"><i class="fab fa-facebook-f"></i> Facebook </a></li>
+						<li><a href="#"><i class="fab fa-instagram"></i> Instagram </a></li>
+						<li><a href="#"><i class="fab fa-youtube"></i> Youtube </a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="bi-footer-logo-area">
+			<div class="container">
+				<div class="bi-footer-logo">
+					<div class="brand-logo text-center">
+						<a href="#"><img src="assets/img/logo/logo2.png" alt=""></a>
+					</div>
+					<div class="logo-mail text-center headline">
+						<h3><a href="#">email@webs.com</a></h3>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bi-footer-copyright text-center">
+			Copyright 2023 @webagency
+		</div>
+	</footer>
+	<!-- End of Footer  section
+	============================================= -->
+
+
+	<!-- For Js Library -->
+	<script src="assets/js/jquery-3.6.0.min.js"></script>
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/js/swiper-bundle.min.js"></script>
+	<script src="assets/js/appear.js"></script>
+	<script src="assets/js/counter.js"></script>
+	<script src="assets/js/gsap.min.js"></script>
+	<script src="assets/js/knob.js"></script>
+	<script src="assets/js/jquery.magnific-popup.min.js"></script>
+	<script src="assets/js/jquery.counterup.min.js"></script>
+	<script src="assets/js/waypoints.min.js"></script>
+	<script src="assets/js/parallax.min.js"></script>
+	<script src="assets/js/ScrollTrigger.min.js"></script>
+	<script src="assets/js/ScrollToPlugin.min.js"></script>
+	<script src="assets/js/ScrollSmoother.min.js"></script>
+	<script src="assets/js/SplitText.min.js"></script>
+	<script src="assets/js/jquery.filterizr.js"></script>
+	<script src="assets/js/imagesloaded.pkgd.min.js"></script>
+	<script src="assets/js/hover-revel.js"></script>
+	<script src="assets/js/split-type.min.js"></script>
+	<script src="assets/js/parallax-scroll.js"></script>
+	<script src="assets/js/jquery.marquee.min.js"></script>
+	<script src="assets/js/wow.min.js"></script>
+	<script src="assets/js/jquery.meanmenu.min.js"></script>
+	<script src="assets/js/tilt.jquery.min.js"></script>
+	<script src="assets/js/matter.min.js"></script>
+	<script src="assets/js/script.js"></script>
+
 </body>
+
+<!-- Mirrored from html.themexriver.com/Haptic-Html/index-4.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 28 Jan 2025 14:38:44 GMT -->
+
 </html>
